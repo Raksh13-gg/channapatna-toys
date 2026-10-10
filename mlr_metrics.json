@@ -1,0 +1,16 @@
+{
+  "model": "sklearn.linear_model.LinearRegression",
+  "target": "price",
+  "input_features": [
+    "category",
+    "material",
+    "platform"
+  ],
+  "training_samples": 129,
+  "testing_samples": 33,
+  "encoded_features": 55,
+  "mae": 2497.6426420075345,
+  "mse": 10582928.318272144,
+  "rmse": 3253.1413000778407,
+  "r2_score": -1.3667171913771505
+}

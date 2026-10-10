@@ -1,0 +1,6 @@
+node_modules/
+.env
+data/raw/
+data/cleaned/
+*.log
+__pycache__/
