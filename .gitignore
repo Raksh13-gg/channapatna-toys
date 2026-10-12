@@ -4,3 +4,4 @@ data/raw/
 data/cleaned/
 *.log
 __pycache__/
+~$*

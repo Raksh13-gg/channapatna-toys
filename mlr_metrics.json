@@ -1,16 +1,12 @@
 {
-  "model": "sklearn.linear_model.LinearRegression",
-  "target": "price",
-  "input_features": [
-    "category",
-    "material",
-    "platform"
-  ],
-  "training_samples": 129,
-  "testing_samples": 33,
-  "encoded_features": 55,
-  "mae": 2497.6426420075345,
-  "mse": 10582928.318272144,
-  "rmse": 3253.1413000778407,
-  "r2_score": -1.3667171913771505
+  "model": "RandomForestRegressor_RatioModel",
+  "target": "price_to_mrp_ratio -> price",
+  "total_samples": 180,
+  "training_samples": 144,
+  "testing_samples": 36,
+  "features_count": 100,
+  "mae": 194.43,
+  "rmse": 377.92,
+  "r2_score": 0.9225,
+  "mape_percent": 15.3
 }
