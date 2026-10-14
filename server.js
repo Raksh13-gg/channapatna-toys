@@ -7,6 +7,16 @@ const PORT = process.env.PORT || 3000;
 
 app.use(express.json());
 
+app.get('/', (req, res) => {
+  res.json({
+    success: true,
+    message: 'Channapatna Toys API is running.',
+    endpoints: {
+      ping: '/api/etsy/ping'
+    }
+  });
+});
+
 // Routes
 app.use('/api/etsy', etsyRoutes);
 
